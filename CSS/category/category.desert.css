@@ -1,0 +1,26 @@
+
+
+
+body{
+    overflow-x: hidden;
+}
+.ReadBtn{
+    border: none;
+    background-color: #ff8a65;
+}
+
+.h5-hovering:hover{
+    cursor: pointer;
+    color: #452bda;
+    font-weight: 200px;
+}
+
+.img-hovering:hover{
+    opacity: 0.8;
+    color: rgb(56, 22, 209);
+  
+}
+.header{
+    color: rgb(214, 55, 167);
+   
+}

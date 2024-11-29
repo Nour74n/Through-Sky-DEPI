@@ -1,0 +1,58 @@
+
+.navbar{
+    background:#d7dfe8!important;
+    position: absolute; /* Position it absolutely to overlay the video */
+    width: 100%; /* Make sure it spans the full width */
+    z-index: 1000; /* Ensure it appears above the video */
+  
+}
+.nav-link:hover{
+    color: rgb(100, 108, 134) !important;
+}
+.btn-outline-primary:hover{
+    background-color: rgb(100, 108, 134);
+}
+.nav-link{
+font-size: large !important;
+font-family: "Vollkorn", serif !important;
+font-weight: 600;
+font-style: normal;
+}
+#home{
+    margin-left: 200px!important;
+}
+@media(max-width:993px){
+  #home{
+    margin-left: 0px!important;
+  }
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+.btn1{
+    border: none;
+    background-color: #ff8a65;
+    padding: 10px;
+    margin: 10px;
+}
+
+.h5-hovering:hover{
+    cursor: pointer;
+    color: #452bda;
+    font-weight: 200px;
+}
+/* img {
+    width: 300px;
+    height: 200px;
+} */
+.img-hovering:hover{
+    opacity: 0.8;
+    color: rgb(56, 22, 209);
+  
+}
+.header{
+    color: rgb(214, 55, 167);
+}

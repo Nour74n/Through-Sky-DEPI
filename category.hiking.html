@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/category/category,hiking.css">
+    
+
+    <!-- Bootstrap CSS -->
+    
+</head>
+<style>
+  .gradient-background {
+background: linear-gradient(300deg, #4b7c8c, #457c7c, #ae9ea6);
+background-size: 180% 180%;
+animation: gradient-animation 18s ease infinite;
+}
+.icons:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.7, 1.7);
+    -webkit-transform: scale(1.7, 1.7);
+    transform: scale(1.7, 1.7);
+    
+}
+
+@keyframes gradient-animation {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+.navbar{
+    background:#d7dfe8!important;
+    position: absolute; /* Position it absolutely to overlay the video */
+    width: 100%; /* Make sure it spans the full width */
+    z-index: 1000; /* Ensure it appears above the video */
+}
+.nav-link:hover{
+  color:rgb(122, 155, 255) !important;
+}
+.btn-outline-primary:hover{
+  background-color: #a1cef1;
+}
+.nav-link{
+font-size: large !important;
+font-family: "Vollkorn", serif !important;
+font-weight: 600;
+font-style: normal;
+}
+
+
+
+</style>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-weight: bold; color: rgb(100, 108, 134);"><img src="./icons/icon.png" height="60px" > Through sky </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home" aria-current="page" href="homepage.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="timeline.html">My Blog</a>
+                  </li>
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="destination.html" data-bs-toggle="dropdown" aria-expanded="false">Destinations</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="germany.html">Germany</a></li>
+                      <li><a class="dropdown-item" href="italy.html">Italy</a></li>
+                      <li><a class="dropdown-item" href="egypt.html">Egypt</a></li>
+                    </ul>
+                  </li>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="category.beaches.html">Beaches</a></li>
+                      <li><a class="dropdown-item" href="category.desert.html">Desert</a></li>
+                      <li><a class="dropdown-item" href="category.hiking.html">Hiking</a></li>
+                    </ul>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about-final.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactdone.html">Contact</a>
+                  </li>
+                </ul>
+    
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit"><img src="./icons/search.svg"></button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+
+    
+    <div class="container-fluid flex-column  d-flex  justify-content-center align-items-center">
+        <div class="header">    <h2>hiking</h2></div>
+            
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-hovering"  width="100%"  src="./imgs/category/Aruba_02_1200.jpg">
+                <h5   class="h5-hovering" style="width: 100%;text-align: center;">10 Best Hikes In Aruba: Family Friendly Trails</h5>
+                <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                    <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                </div>
+               
+                <p style="width: 100%;text-align: center;">Even though Aruba is mainly known for its beaches and other fun activities,
+                     there are also some easy and family friendly hikes on the island where you …</p>
+                <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                     <button   class="btn1">Read More</button>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-hovering" width="100%"  src="./imgs/category/DJI_0126_1200.jpg">
+                <h5   class="h5-hovering" style="width: 100%;text-align: center;">Santa Ana Volcano Hike In El Salvador (Ilamatepec)</h5>
+                <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                    <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                </div>
+               
+                <p style="width: 100%;text-align: center;">The Santa Ana volcano hike is one of El Salvador’s most amazing experiences,
+                     with a super colored crater lake that can change blue or green depending on …</p>
+                <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                     <button   class="btn1">Read More</button>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-hovering" width="100%" src="./imgs/category/DSCF0069_1200-4.jpg">
+                <h5   class="h5-hovering" style="width: 100%;text-align: center;">How To Visit Khao Sok National Park In Thailand</h5>
+                <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                    <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                </div>
+               
+                <p style="width: 100%;text-align: center;">One of the best places to see nature and animals in Thailand is at the Khao Sok National Park,
+                     which is not too far from Phuket and …</p>
+                <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                     <button   class="btn1">Read More</button>
+                    </div>
+            </div>
+        
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-hovering"  width="100%"  src="./imgs/category/DSCF9387_1200-2.jpg">
+                <h5   class="h5-hovering" style="width: 100%;text-align: center;">How To Hike Half Dome In Yosemite National Park</h5>
+                <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                    <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                </div>
+               
+                <p style="width: 100%;text-align: center;">The Half Dome hike is the single most epic hike in California’s Yosemite National Park,
+                     with a thrilling and scary cables section at the end of the …</p>
+                <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                     <button   class="btn1">Read More</button>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-hovering" width="100%"  src="./imgs/category/DSCF0068-3.jpg">
+                <h5   class="h5-hovering" style="width: 100%;text-align: center;">Kelingking Beach Nusa Penida: T-Rex Cliff Hike In Bali</h5>
+                <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                    <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                </div>
+               
+                <p style="width: 100%;text-align: center;">The amazing Kelingking beach hike and cliff point is easily the most famous location in Nusa Penida,
+                     and probably one of the most iconic pictures in all …</p>
+                <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                     <button   class="btn1">Read More</button>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-hovering" width="100%" src="./imgs/category/DSCF7595-3.jpg">
+                <h5   class="h5-hovering" style="width: 100%;text-align: center;">Tumpak Sewu Waterfall: Thousand Falls In Java Indonesia</h5>
+                <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                    <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                </div>
+               
+                <p style="width: 100%;text-align: center;">Tumpak Sewu waterfall is becoming famous as one of the most amazing waterfalls in East Java, and it may even be
+                     the coolest waterfall in all of …</p>
+                <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                     <button   class="btn1">Read More</button>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-hovering"  width="100%"  src="./imgs/category/Ubud_02-2_1200.jpg">
+                    <h5   class="h5-hovering" style="width: 100%;text-align: center;">20 Best Waterfalls Near Ubud Bali (+Map)</h5>
+                    <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                        <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                    </div>
+                   
+                    <p style="width: 100%;text-align: center;">Ubud is mainly known for its temples and cultural attractions,
+                         but there are also a bunch of nice waterfalls near Ubud too. A lot of the best …</p>
+                    <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                         <button   class="btn1">Read More</button>
+                        </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-hovering" width="100%"  src="./imgs/category/DSCF5437-4_1200 .jpg">
+                    <h5   class="h5-hovering" style="width: 100%;text-align: center;">18 Best Slot Canyons In Utah – The Hidden Gems!</h5>
+                    <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                        <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                    </div>
+                   
+                    <p style="width: 100%;text-align: center;">Recently we went on a big road trip around the American Southwest,
+                        seeing many of the best slotcanyons in Utah along the way,
+                          and then we …</p>
+                          <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                            <button   class="btn1">Read More</button>
+                           </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-hovering" width="100%" src="./imgs/category/DJI_0126_1200.jpg">
+                    <h5   class="h5-hovering" style="width: 100%;text-align: center;">How To Visit Kawah Ijen – Volcano Lake & Blue Fire In Java</h5>
+                    <div  style="width: 100%;text-align: center;"  class="line d-flex   justify-content-center align-items-center">
+                        <hr style="color: #ff8a65; width: 20%;height: 1px;opacity: 1;  background-color: #ff8a65; ">
+                    </div>
+                   
+                    <p style="width: 100%;text-align: center;">The Kawah Ijen volcano and crater lake is hands down one of the world’s most spectacular sights.
+                         Don’t leave Indonesia without seeing it, especially if you’re already …</p>
+                          <div class="button flex-column  d-flex  justify-content-center align-items-center" style="width: 100;">
+                            <button   class="btn1">Read More</button>
+                           </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--add footer-->   
+ <section id="contact" class="gradient-background">
+  <div class="container ">
+    <footer class="row row-cols-12 row-cols-sm-12 row-cols-md-12 py-5  border-top">
+      <div class="col mb-3">
+
+       <img src="./icons/icon.png" width="50px">
+        <p class="text-body-secondary"><strong style="font-size:30px;color: white;line-height:80px;"><i>Through Sky</i></strong></p>
+      </div>
+
+      <div class="col mb-3">
+        <div class="widget">
+          <h5 style="color: white;">Connect</h3>
+          <div class="list-unstyled social-icons light mb-3 ">
+            
+              <img class="icons" src="./icons/facebook.svg" width="20px" style="margin-right: 9px; margin-top: 10px;">
+          
+            
+              <img  class="icons" src="./icons/twitter-x.svg" width="20px"style="margin-right: 9px; margin-top: 10px;">            
+            
+            
+              <img   class="icons" src="./icons/instagram.svg" width="20px"style="margin-right: 9px; margin-top: 10px;">            
+            
+            
+              <img class="icons" src="./icons/google.svg" width="20px"style="margin-right: px; margin-top: 10px;">            
+            
+            
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col mb-3">
+        <h5 style="color: white;">Navigation</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="homepage.html" class="nav-link p-0 text-body-secondary" >Home</a></li>
+          <li class="nav-item mb-2"><a href="destination.html" class="nav-link p-0 text-body-secondary" >Destinations</a></li>
+          <li class="nav-item mb-2"><a href="timeline.html" class="nav-link p-0 text-body-secondary">Blog</a></li>
+          <li class="nav-item mb-2"><a href="about-final.html" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+      <hr>
+      
+      <p class="col-ml-50">© <span>Copyright</span> <strong class="px-1 sitename">Active.</strong> <span>All Rights Reserved</span></p>
+
+   
+    
+      </div>
+    </footer> 
+<!--end footer-->
+   
+   
+
+
+
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    </body>
+</html>

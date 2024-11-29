@@ -1,0 +1,125 @@
+
+/* video style */
+#myVideo {
+    position: relative; /* Change to relative */
+    width: 100%; /* Make sure it spans the full width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 80vh; /* Limit the height to 50% of the viewport height */
+    object-fit: cover; /* Ensure the video covers the area without distortion */
+  }
+  .content{
+      position: absolute;
+      top:28%;
+      left:280px;
+     
+  }
+@media(min-width:200px){
+    .content{
+        top: 20%;
+    }
+}
+
+  @media(min-width:1000px) {
+      .content{
+          left: 30%;
+          top:28%;
+         
+      }
+      h1{
+        font-size: 70px;
+      }
+  }
+  @media(min-width:1600px){
+    .content{
+        left: 35%;
+        top:33%
+    }
+  }
+ 
+  
+  
+  h1{
+    font-family: "Vollkorn", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    
+  }
+  .img-container img {
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+  }
+
+
+  .fisrtcardImg:hover {
+    transform: scale(1.1); 
+  }
+
+  
+  @media (max-width: 800px) {
+    .img-container img {
+      height: 120px; 
+      width:60% ;
+    }
+  }
+  p,h5,h6{
+    font-family: "Vollkorn", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .img-container2 img {
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+  }
+  .img-container2 img:hover {
+    transform: scale(1.1);
+  }
+  /* btn-night and day style*/
+  .theme-toggle {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: none;
+    color: rgb(15, 14, 14);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+/* Night mode styles */
+body.night-mode {
+    background-color: #182930;
+    color: #e0e0e0;
+}
+
+body.night-mode a {
+    color: #8e819d;
+}
+
+.suggestions.night-mode, .theme-toggle.night-mode {
+    background-color: #333;
+    color: white;
+}
+ 
+
+.night-mode .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(150, 167, 183) !important;
+    color: #e0e0e0 !important;
+}
+.night-mode .navbar{
+    background:none!important;
+}
+.night-mode .text-body-secondary{
+    color:#e0e0e0!important;
+}
+.night-mode .leftArticle{
+    color: #e0e0e0!important;
+}
+
+
+.hidden {
+    display: none;
+  }

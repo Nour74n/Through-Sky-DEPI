@@ -1,0 +1,1032 @@
+ 
+
+body{
+    
+    margin:0;
+    background-color:#d7dfe8;
+}
+
+.allpage{
+   
+    width:100%;
+    background-color:#e4e6e9;
+    display: flex;
+    flex-direction: row;
+    
+}
+.navbar{
+    
+    width:100%;
+    background:#d7dfe8!important;
+    position: absolute; /* Position it absolutely to overlay the video */
+    
+    z-index: 1000; /* Ensure it appears above the video */
+  
+}
+    
+
+
+.icons:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.7, 1.7);
+    -webkit-transform: scale(1.7, 1.7);
+    transform: scale(1.7, 1.7);
+    
+}
+
+
+  
+
+#home{
+    margin-left: 150px!important;
+}
+@media(max-width:993px){
+  #home{
+    margin-left: 0px!important;
+  }
+}
+
+
+/*style page*/
+
+.page-content{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 237, 237);
+   
+    border-radius: .5em;
+}
+
+.side-menu{
+
+width:20%;
+display: flex;
+justify-content: center;
+
+}
+.up-content{
+    width:68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .4em;
+    padding-top:1em ;
+    
+
+}
+
+.inside-menu{
+    
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    row-gap:1.5em;
+    
+    
+    
+}
+#photo{
+    height:2.5em;
+    width:2.5em;
+    border-radius: 3em;
+
+}
+
+.inside-menu-2{
+
+   
+    width:80%;
+    padding-left:1em;
+    
+    
+
+    
+}
+#lab{
+color: rgb(100, 98, 98);
+text-indent:20px;
+
+}
+.common{
+    height:1.1em;
+    width:1.1em;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+
+.right-side{
+    
+    width:80%;
+    
+display: flex;
+flex-direction: column;
+background:white;
+}
+
+
+.cover{
+    height:40vh;
+    width:100%;
+    background-image: url("../../imgs/blog/im4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    transform-origin: 20% 80%;
+    
+    
+
+}
+   
+#img-profile{
+    height:10em;
+    width: 10em;
+    border-radius:8em;
+    border:2px solid white;
+    top:11em;
+    left:4em;
+    z-index:1000;
+    position:relative;}
+
+    
+    
+   
+
+
+.name-profile{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left:15em;
+    background-color: white;
+   
+
+
+}
+.myinfo{
+    
+    font-style: oblique;
+    font-size:1em;
+    font-weight:600;
+
+}
+
+
+
+.profile-label{
+
+    font-style: oblique;
+    font-size: 1.3em;
+    font-weight: bold;
+   
+   
+}
+#edit-img{
+    height:1.2em;
+    width: 1.2em;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.bar{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+    column-gap: 3rem;
+    background-color:rgb(240, 236, 236) ;
+    align-items: center;
+    padding-left:25px;
+
+}
+
+.part-bar{
+
+    height: 70%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+.active-bar{
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.part-bar:hover{
+
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#createPostBtn{
+    border: none;
+    background: none;
+    font-weight: 600;
+}
+
+.posts-shape{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 237, 237);
+    
+    
+
+}
+
+.myoldpost{
+    
+width:88%;
+display: flex;
+flex-direction: column;
+border-right: 1px solid rgb(240, 236, 236);
+padding-top: 1em;
+align-items: center;
+background-color: white;
+ 
+
+
+}
+.img-post{
+    height:24em;
+    width:38em;
+}
+
+.inner-wrapper{
+width: 95%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+#del-icon{
+    height:1.3em;
+    width:1.3em ;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.semi-wrapper{
+    width: 75%;
+}
+
+p{font-size:18px;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;}
+
+
+#del-icon:hover{
+    border: 2px solid black;
+}
+
+.interact-part{
+width: 75%;
+display: flex;
+flex-direction: row;
+column-gap:.3em;
+
+
+}
+.act-icon{
+
+    display: flex;
+    column-gap: .4em;
+
+}
+
+
+.commentpart{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+
+    
+    
+    
+}
+#edit-btn{
+    margin-right:18%;
+}
+.comments{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+
+}
+.comment-btn{
+    position: absolute;
+    top:5px;
+    right:55px;
+}
+
+.inner-comment{
+display: none;
+column-gap:1em;
+width:90%;
+justify-content:center;
+align-items:center;
+flex-direction: row;
+position: relative;
+
+}
+
+textarea{
+    width:80%;
+}
+
+/*css modal that will show when i creat post*/
+
+
+
+.modal {
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.modal.fadeOut {
+    animation: fadeOut 0.5s ease-in-out;}
+
+    .modal-content {
+        max-width: 50%;
+        width: 100%;
+        height: 75%;
+        margin: auto;
+        background:white;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9.5px);
+        -webkit-backdrop-filter: blur(9.5px);
+        padding: 20px;
+        padding-top: 5px;
+        border-radius: 10px;
+        overflow-y: auto;
+        max-height: 80vh;
+        text-align: center;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .close {
+        cursor: pointer;
+        font-size: 25px;
+        color: #555;
+        transition: transform .2s;
+        display: inline-block;
+    }
+    .close:hover {
+        -ms-transform: scale(1.7, 1.7);
+        -webkit-transform: scale(1.7, 1.7);
+        transform: scale(1.7, 1.7);
+    }
+
+    .post-date {
+        color: #777;
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .post{
+        width:88%;
+display: flex;
+flex-direction: column;
+border-right: 1px solid rgb(240, 236, 236);
+padding-top: 1em;
+align-items: center;
+background-color: white;
+    }
+
+    .btn-layer{
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding:10px;
+       
+    
+        
+        
+    }
+.carosel-part{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap:1em;
+    justify-content: space-around;
+    background-color: rgb(240, 236, 236);
+}
+.mycarosel{
+    margin: 20px;
+    width:40%;
+    box-shadow: 10px 10px 10px 10px rgba(104, 103, 103, 0.516);
+    
+
+}
+.card-para{
+    width:40%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px rgba(104, 103, 103, 0.516);
+    border-radius: 20px;
+    background:linear-gradient(rgb(89, 219, 213) ,rgb(119, 117, 117));
+}
+
+.card-para:hover{
+    opacity: .7;
+}
+
+
+.inner-para{
+    width: 80%;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:white;
+    font-weight: 900;
+}
+.inner-para p{
+    font-size:20px;
+    color:white;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(rgb(121, 119, 119),rgb(146, 192, 190));
+    border-radius: 10px;
+    
+}
+.left-gallery{
+width: 30%;
+
+border-radius: 10px;
+}
+.center-gallery{
+width: 30%;
+display: flex;
+flex-direction: column;
+row-gap:.3em;
+
+
+}
+.right-gallery{
+width: 30%;
+
+border-radius: 10px;
+}
+.left-gallery img{
+    width: 100%;
+}
+.right-gallery img{
+    width: 100%;}
+    .center-gallery img{
+        width: 100%;
+        
+    }
+    .img-gall{
+
+        border-radius:25px;
+        padding:15px;
+        
+    }
+
+    .img-gall:hover{
+            cursor: pointer;
+            -ms-transform: scale(1.5, 1.5);
+            -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1, 1);
+            
+        }
+        
+      
+      
+
+    
+
+
+
+
+
+
+
+
+    
+    .btn-layer:hover {
+        background-color: #0056b3;
+    }
+    .comment-input {
+        width: 80%;
+        /*margin-right: 10px;
+        border-radius: 5px;
+        padding: 5px;*/
+    }
+
+    .post-date {
+        color: #777;
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .img-post:hover{
+        z-index:1000;
+        position: relative;
+        border: 2px solid white;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px 10px rgba(104, 103, 103, 0.516);
+        ;
+    }
+
+
+    /*media*/
+
+
+    
+    @media only screen and (max-width:700px){
+
+        .side-menu {
+            width: 30%;}
+            .right-side {
+                width: 70%;}
+                .part-bar {
+                    height:70%;
+                    width: 30%;
+                    padding: 15px;}
+                    p {
+                        font-size: 15px;}
+                        .img-post {
+                             
+                                height:20em;
+                                width: 20em;}
+
+                            .modal-content {
+                                max-width: 80%;
+                            row-gap:1em;}
+                            #postForm{
+                                display: flex;
+                                flex-direction: column;
+                                row-gap: 1.2em;
+                            }
+                            #img-profile {
+      
+                               
+                                top:11em;
+                                left:5em;
+                               }
+                               
+                            .mycarosel{width:50%;
+                                margin:14px;
+                            
+                            }
+                            .card-para{width: 50%;
+                                margin: 14px;
+                            }
+                        
+                            .card-para p{
+                                font-size: 15px;
+                            }
+
+
+
+
+
+
+    }
+
+    @media only screen and (max-width:500px){
+
+        #img-profile {
+          height: 6em;
+          width: 6em;
+           top:100em;
+    left:5em;
+            }
+            .semi-wrapper{width: 90%;}
+            .name-profile {
+            
+                padding-left: 10em;}
+                .profile-label {
+                   
+                    font-size: 1em;}
+    
+                    .myinfo {
+                        
+                        font-size: .8em;}
+                        .part-bar {
+                            width:30%;
+                            padding: 8px;}
+    
+                            p{font-size: 13px;}
+    
+                            .img-post {
+                                height:12em;
+                                width:12em;}
+                            
+                            .comments {
+                                width: 80%;}
+
+                                .comment-btn{
+                                    right:5px;
+                                }
+
+                                .btn-layer{
+                                   
+                                    padding:5px;
+                                   
+                            }
+                        
+                        .commentpart{
+                            width: 100%;
+                        }
+                        
+                        .carosel-part{
+                            flex-direction:column;
+                        }
+                        .mycarosel{width: 85%;
+                        
+                        }
+                        .card-para{width: 85%;}
+                    
+                        .card-para p{
+                            font-size: 16px;
+                        }
+                    
+                    }
+
+                    @media only screen and (max-width:500px) and (max-height:795px){
+    #img-profile{
+        top:30px;
+
+    }
+    
+                    }
+    @media only screen and (max-width:360px){
+        .side-menu {
+            width: 30%;}
+            .inside-menu {
+                width: 90%;}
+                .up-content {
+                    width: 100%;
+                    flex-direction: column;}
+                    #lab {
+                        font-size: 12px;
+                        text-indent: 8px;}
+                        .inside-menu-2 {
+                            width: 100%;
+                            padding-left: .2em;}
+                            #label1{
+                                text-align: center;
+                            }
+                            .common {
+                                /* height: 1.1em; */
+                                width: .9em;}
+                                .para{
+                                    font-size: 14px;
+                                }
+                                .right-side {
+                                    width: 70%;
+                                }
+                                
+                                    #img-profile {
+                                        border-radius: 8em;
+                                        top:22em;
+                                        left: 8em;}
+                                    
+                                    .name-profile {
+                                    
+                                        padding-left: 7em;}
+                                        .profile-label {
+                                           
+                                            font-size: .9em;}
+                                            #edit-img {
+                                                
+                                                width: 1em;}             
+
+                                                .myinfo {
+                                                    
+                                                    font-size: .8em}
+                                                    .bar {
+                                                        
+                                                        width: 100%;
+                                                       
+                                                        justify-content: center;
+                                                        
+                                                        column-gap: 2rem;
+                                                       
+                                                         align-items: center; 
+                                                        padding-left: 20px;}
+
+                                                        .part-bar {
+                                                            height: 70%;
+                                                            width: 70%;
+                                                        font-weight: 900;
+                                                    font-size: 12px;}
+                                                    #photo {
+                                                        height: 2em;
+                                                        width: 2em;}
+                                                        .myoldpost {
+                                                            width: 92%;
+                                                        row-gap: .8em;
+                                                    border-right: none;}
+                                                            .inner-wrapper {
+                                                               
+                                                                align-items: center;
+                                                            }
+                                                            .semi-wrapper {
+                                                                width: 95%;
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                row-gap: .5em;
+                                                            }
+                                                            p {
+                                                                font-size: 12px;}
+                                                                .img-post {
+                                                                    height: 10em;
+                                                                    width: 10em;}
+                                                                    .interact-part {
+                                                                        width: 95%;
+                                                                        column-gap: .2em;}
+                                                                        .act-icon {
+                                                                            column-gap: .2em;}
+                                                                            .commentpart {
+                                                                                width: 90%;}
+                                                                                .inner-comment {
+                                                                                
+                                                                                    justify-content: center;}
+                                                                                    .modal-content {
+                                                                                        max-width: 80%;
+                                                                                    row-gap:1em;}
+                                                                                    #postForm{
+                                                                                        display: flex;
+                                                                                        flex-direction: column;
+                                                                                        row-gap: 1.2em;
+                                                                                    }
+                                                                                    .comment-input {
+                                                                                        width: 80%;
+                                                                                        
+                                                                                        border: 1px solid #ccc;
+                                                                                        border-radius: 5px;
+                                                                                       
+                                                                                    }
+
+
+
+
+
+
+
+                                                    }
+
+
+
+
+   
+
+   
+
+
+
+ 
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style footer*/
+.gradient-background {
+    background: linear-gradient(300deg, #4b7c8c, #457c7c, #ae9ea6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+
+
+
+  .nav-link:hover{
+    color:rgb(122, 155, 255) !important;
+}
+.btn-outline-primary:hover{
+    background-color: rgb(100, 108, 134);
+}
+.nav-link{
+font-size: large !important;
+font-family: "Vollkorn", serif !important;
+font-weight: 600;
+font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navbar{
+    background-color:white;/*#d7dfe8*/
+    /*position: absolute; /* Position it absolutely to overlay the video */
+    /*width: 100%; /* Make sure it spans the full width */
+    /*z-index: 1000; /* Ensure it appears above the video */
